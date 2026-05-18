@@ -1,4 +1,4 @@
-# 🛍️ BoutiqueApp — Mini Projet Android
+# 🛍️ ShopApp — Mini Projet Android
 
 Application Android de gestion de boutique avec Firebase.
 
@@ -16,7 +16,7 @@ Application Android de gestion de boutique avec Firebase.
 
 ```
 app/
-├── java/com/example/boutiqueapp/
+├── java/com/example/ShopApp/
 │   ├── models/
 │   │   └── Product.java           ← Modèle de données
 │   ├── adapters/
@@ -44,9 +44,9 @@ app/
 ### 1. Créer le projet Firebase
 
 1. Aller sur [console.firebase.google.com](https://console.firebase.google.com)
-2. Créer un nouveau projet : **BoutiqueApp**
+2. Créer un nouveau projet : **ShopApp**
 3. Ajouter une application Android :
-   - Package : `com.example.boutiqueapp`
+   - Package : `com.example.ShopApp`
    - Télécharger `google-services.json` → le placer dans `app/`
 4. Activer **Authentication** → Email/Mot de passe
 5. Activer **Cloud Firestore** → Mode test
@@ -57,7 +57,7 @@ app/
 ### 2. Créer le projet Android Studio
 
 1. New Project → Empty Activity
-2. Package name : `com.example.boutiqueapp`
+2. Package name : `com.example.ShopApp`
 3. Min SDK : API 24
 4. Copier tous les fichiers Java et XML
 5. Copier `google-services.json` dans `app/`
